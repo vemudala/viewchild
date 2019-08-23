@@ -13,7 +13,7 @@ export class CockpitComponent implements OnInit {
   // newServerName:string=""; //1 removed bcz we are given reference to input not ngmodel binding
   // newServerContent:string=""; // comnted aand added below refrence
   // @ViewChild('serverContentInput', {static: false}) serverContentInput; //this is of type element
-  @ViewChild('serverContentInput', {static: false}) serverContentInput:ElementRef ; 
+  @ViewChild('serverContentInput', {static: false}) serverContentInput:ElementRef ;  //here view child parameter is the reference of html
   constructor() { }
 
   ngOnInit() {
