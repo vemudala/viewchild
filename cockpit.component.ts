@@ -22,7 +22,7 @@ export class CockpitComponent implements OnInit {
     // console.log(this.serverContentInput);
     this.serverCreated.emit({
       serverName:someinpt.value,
-      serverContent:this.serverContentInput.nativeElement.value
+      serverContent:this.serverContentInput.nativeElement.value //i tink present value of input accesed
     })
     // console.log(lid)//old 1
     // this.serverCreated.emit({  //old 2
