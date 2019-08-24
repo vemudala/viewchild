@@ -14,7 +14,7 @@ export class CockpitComponent implements OnInit {
   // newServerContent:string=""; // comnted aand added below refrence
   // @ViewChild('serverContentInput', {static: false}) serverContentInput; //this is of type element
   @ViewChild('serverContentInput', {static: false}) serverContentInput:ElementRef ;  //here view child parameter is the reference of html
-  constructor() { }
+  constructor() { }  //above ElementRef is datatype, we are returning elementref datatype for inputs and to get access v use nativelemnt in below mehtod
 
   ngOnInit() {
   }
